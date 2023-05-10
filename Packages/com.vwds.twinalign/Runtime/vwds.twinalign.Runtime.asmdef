@@ -1,0 +1,26 @@
+{
+    "name": "vwds.twinalign",
+    "references": [
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.WindowsMixedReality",
+        "Microsoft.MixedReality.OpenXR",
+        "AzureSpatialAnchors.SDK.iOS.Runtime",
+        "AzureSpatialAnchors.SDK.Windows.Runtime",
+        "AzureSpatialAnchors.SDK.Android.Runtime",
+        "AzureSpatialAnchors.SDK.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

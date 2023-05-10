@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.microsoft.azure.spatial-anchors-sdk.android": {
-      "version": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.android-2.10.2.tgz",
+      "version": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.android-2.10.2.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -10,7 +10,7 @@
       }
     },
     "com.microsoft.azure.spatial-anchors-sdk.core": {
-      "version": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.core-2.10.2.tgz",
+      "version": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.core-2.10.2.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -20,7 +20,7 @@
       }
     },
     "com.microsoft.azure.spatial-anchors-sdk.ios": {
-      "version": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.ios-2.10.2.tgz",
+      "version": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.ios-2.10.2.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -29,7 +29,7 @@
       }
     },
     "com.microsoft.azure.spatial-anchors-sdk.windows": {
-      "version": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.windows-2.10.2.tgz",
+      "version": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.windows-2.10.2.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -266,6 +266,20 @@
         "com.unity.subsystemregistration": "1.0.6"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.vwds.twinalign": {
+      "version": "file:com.vwds.twinalign",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.microsoft.azure.spatial-anchors-sdk.android": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.android-2.10.2.tgz",
+        "com.microsoft.azure.spatial-anchors-sdk.core": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.core-2.10.2.tgz",
+        "com.microsoft.azure.spatial-anchors-sdk.ios": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.ios-2.10.2.tgz",
+        "com.microsoft.azure.spatial-anchors-sdk.windows": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.windows-2.10.2.tgz",
+        "com.unity.xr.arfoundation": "4.2.7",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

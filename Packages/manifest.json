@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "com.microsoft.azure.spatial-anchors-sdk.android": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.android-2.10.2.tgz",
-    "com.microsoft.azure.spatial-anchors-sdk.core": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.core-2.10.2.tgz",
-    "com.microsoft.azure.spatial-anchors-sdk.ios": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.ios-2.10.2.tgz",
-    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:../Packages/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.windows-2.10.2.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.android": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.android-2.10.2.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.core": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.core-2.10.2.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.ios": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.ios-2.10.2.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:../Packages/com.vwds.twinalign/MicrosoftAzurePackages/com.microsoft.azure.spatial-anchors-sdk.windows-2.10.2.tgz",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.16",
