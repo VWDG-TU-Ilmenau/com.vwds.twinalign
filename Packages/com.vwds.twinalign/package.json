@@ -1,0 +1,40 @@
+{
+    "name": "com.vwds.twinalign",
+    "version": "1.0.0",
+    "displayName": "Twin Align",
+    "description": "A Unity package that uses Azure Spatial Anchors to align complex multi-room digital twin with its corresponding physical world.",
+    "unity": "2021.3",
+    "unityRelease": "15f1",
+    "documentationUrl": "https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/wiki",
+    "changelogUrl": "https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/blob/main/changelog.md",
+    "licensesUrl": "https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/blob/main/licensing.md",
+    "dependencies": {
+        "com.microsoft.azure.spatial-anchors-sdk.android": "2.10.2",
+        "com.microsoft.azure.spatial-anchors-sdk.core": "2.10.2",
+        "com.microsoft.azure.spatial-anchors-sdk.ios": "2.10.2",
+        "com.microsoft.azure.spatial-anchors-sdk.windows": "2.10.2",
+        "com.unity.xr.arfoundation": "4.2.7",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6"
+   },
+   "keywords": [
+      "digital",
+      "twins",
+      "augmented",
+      "reality",
+      "mixed",
+      "virtal",
+      "spatial",
+      "anchors",
+      "cloud"
+    ],
+    "author": {
+      "name": "Virtual Worlds and Digital Games Research Group - Technische Universität Ilmenau",
+      "email": "vwds-wm@tu-ilmenau.de",
+      "url": "https://www.tu-ilmenau.de/en/university/departments/department-of-economic-sciences-and-media/profile/institutes-and-groups/group-virtual-worlds-and-digital-games-group"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign.git"
+    }
+  }
