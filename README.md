@@ -3,7 +3,9 @@ A Unity package that uses Azure Spatial Anchors to align complex multi-room digi
 
 ## Instructions
 Documentation is available [in the manual](https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/wiki).
-The current version is 2021+.
+
+The current Unity version is 2021+.
+
 This package requires Micosoft's [Azure Spatial Anchors](https://learn.microsoft.com/en-us/azure/spatial-anchors/overview).
 
 ## License
