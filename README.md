@@ -11,5 +11,7 @@ MIT Licese (see [License](https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/
 
 ## Contributors
 Elhassan Makled - Virtual Worlds and Digital Games research group - Technische Universität Ilmenau
+
 Ephraim Schott - Bauhaus Universität Weimar
+
 Tony Töppig - Bauhaus Universität Weimar
