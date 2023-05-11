@@ -19,4 +19,4 @@ Elhassan Makled - Virtual Worlds and Digital Games research group - Technische U
 
 Ephraim Schott - Bauhaus Universität Weimar
 
-Tony Töppig - Bauhaus Universität Weimar
+Tony Zöppig - Bauhaus Universität Weimar
