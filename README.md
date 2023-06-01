@@ -15,8 +15,6 @@ Azure Spatial Anchors version: 2.10.2
 MIT Licese (see [License](https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/blob/main/LICENSE.md))
 
 ## Contributors
-Elhassan Makled - Virtual Worlds and Digital Games research group - Technische Universität Ilmenau
-
-Ephraim Schott - Bauhaus Universität Weimar
-
-Tony Zöppig - Bauhaus Universität Weimar
+[Elhassan Makled](https://github.com/makled) @ Virtual Worlds and Digital Games research group - Technische Universität Ilmenau /
+[Ephraim Schott](https://github.com/EphTron/) @  Bauhaus Universität Weimar /
+Tony Zöppig @ Bauhaus Universität Weimar /
