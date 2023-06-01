@@ -17,4 +17,4 @@ MIT Licese (see [License](https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign/
 ## Contributors
 [Elhassan Makled](https://github.com/makled) @ Virtual Worlds and Digital Games research group - Technische Universität Ilmenau \
 [Ephraim Schott](https://github.com/EphTron/) @  Bauhaus Universität Weimar \
-Tony Zöppig @ Bauhaus Universität Weimar
+[Tony Zöppig](https://github.com/DieLeiter) @ Bauhaus Universität Weimar
