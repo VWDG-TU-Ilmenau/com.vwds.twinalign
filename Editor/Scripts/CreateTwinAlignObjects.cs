@@ -9,6 +9,7 @@ namespace vwds.twinalign.editor
     {
         public static GameObject AnchorInstancePrefab;
         public static GameObject AnchorInstanceSystemPrefab;
+        public static GameObject LocalOriginPrefab;
         [MenuItem("GameObject/Twin Align/Anchor Instance", false, -1)]
         public static void CreateNewAnchor()
         {
@@ -21,6 +22,13 @@ namespace vwds.twinalign.editor
         {
             AnchorInstanceSystemPrefab = Resources.Load("Prefabs/Anchor/AnchorInstanceSystem") as GameObject;
             GameObject anchorInstance = Instantiate(AnchorInstanceSystemPrefab);
+        }
+
+        [MenuItem("GameObject/Twin Align/Local Origin", false, -1)]
+        public static void CreateNewLocalOrigin()
+        {
+            LocalOriginPrefab = Resources.Load("Prefabs/Anchor/LocalOrigin") as GameObject;
+            GameObject anchorInstance = Instantiate(LocalOriginPrefab);
         }
     }
 }
