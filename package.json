@@ -37,5 +37,12 @@
     "type": "git",
     "url": "git+https://github.com/VWDG-TU-Ilmenau/com.vwds.twinalign.git"
   },
-  "type": "tool"
+  "type": "tool",
+  "samples":[
+    {
+      "displayName": "TA Anchor Creator",
+      "description": "Twin Align creator example to create anchors.",
+      "path": "Samples~/TA Anchor Creator"
+    }
+  ]
 }
