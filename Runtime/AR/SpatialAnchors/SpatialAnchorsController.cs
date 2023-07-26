@@ -9,6 +9,7 @@ using Microsoft.Azure.SpatialAnchors.Unity;
 using System.Threading.Tasks;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.UI;
+using TMPro;
 
 namespace vwds.twinalign
 {
@@ -20,7 +21,7 @@ namespace vwds.twinalign
         [SerializeField]
         private SpatialAnchorManager manager;
         public string BaseSharingUrl;
-        public Text StatusText;
+        public TextMeshProUGUI StatusText;
         public GameObject CloudAnchorPlaceHolder;
         private CloudSpatialAnchorWatcher currentWatcher;
         protected AnchorLocateCriteria anchorLocateCriteria = null;
@@ -115,13 +116,13 @@ namespace vwds.twinalign
                     int idx = 0;
                     bool anchorFound = true;
 
-                    while(anchorFound){
+                    while(anchorFound && idx < AnchorInstanceSystem.Instance.AnchorInstancesList.Count){
 
                         anchorKeyToFind = await anchorExchanger.RetrieveAnchorKey(idx);
 
                         if (anchorKeyToFind != null)
                         {
-                            anchorKeysToFind.Add(anchorKeyToFind);
+                            anchorKeysToFind.Add(anchorKeyToFind);                   
                         }
                         else
                         {
