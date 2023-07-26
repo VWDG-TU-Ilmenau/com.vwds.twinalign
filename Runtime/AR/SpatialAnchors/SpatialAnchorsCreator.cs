@@ -1,4 +1,4 @@
-#if UNITY_ANDROID || UNITY_IOS
+#if UNITY_ANDROID || UNITY_IOS || UNITY_EDITOR
 
 using System.Collections;
 using System;
@@ -9,14 +9,15 @@ using Microsoft.Azure.SpatialAnchors.Unity;
 using System.Threading.Tasks;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.UI;
+using TMPro;
 
-namespace vwds.TwinAlign
+namespace vwds.twinalign
 {
     public class SpatialAnchorsCreator : MonoBehaviour
     {
         public SpatialAnchorManager CloudManager;
         public GameObject AnchoredObjectPrefab;
-        public Text StatusText;
+        public TextMeshProUGUI StatusText;
         public string BaseSharingUrl;
         public Button PlaceAnchorButton;
         private ARTrackedImageManager aRTrackedImageManager;
@@ -31,8 +32,8 @@ namespace vwds.TwinAlign
 
         [Header("UI References")]
         public GameObject AnchorDataInputObject;
-        public InputField AnchorNameInput;
-        public InputField AnchorDescriptionInput;
+        public TMP_InputField AnchorNameInput;
+        public TMP_InputField AnchorDescriptionInput;
 
 #if !UNITY_EDITOR
         public AnchorExchanger anchorExchanger = new AnchorExchanger();

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.UI;
 
-namespace vwds.TwinAlign
+namespace vwds.twinalign
 {
     public class SpatialAnchorsController : MonoBehaviour
     {

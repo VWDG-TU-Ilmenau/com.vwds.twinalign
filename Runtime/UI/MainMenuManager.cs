@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace vwds.TwinAlign
+namespace vwds.twinalign
 {
     public class MainMenuManager : MonoBehaviour
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Android;
 using UnityEngine.XR.ARFoundation;
 
-namespace vwds.TwinAlign
+namespace vwds.twinalign
 {
     public class ARSystem : MonoBehaviour
     {

@@ -1,5 +1,5 @@
 {
-    "name": "vwds.twinalign",
+    "name": "vwds.twinalign.editor",
     "references": [
         "Unity.XR.ARSubsystems",
         "Unity.XR.ARFoundation",

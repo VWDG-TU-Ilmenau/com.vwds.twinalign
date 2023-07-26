@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace vwds.TwinAlign
+namespace vwds.twinalign
 {
     public class AnchorInstanceSystem : MonoBehaviour
     {

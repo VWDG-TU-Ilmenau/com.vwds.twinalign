@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-namespace vwds.TwinAlign
+namespace vwds.twinalign
 {
     public class AnchorInstance : MonoBehaviour
     {
-        public Text AnchorTextObject;
+        public TMP_Text AnchorTextObject;
         public string AnchorNameId;
 
         // Start is called before the first frame update
