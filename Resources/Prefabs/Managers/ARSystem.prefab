@@ -30,7 +30,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1986005538}
   m_Father: {fileID: 5103374789854764479}
@@ -116,7 +115,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5103374789854764479}
   m_RootOrder: 4
@@ -149,7 +147,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5103374789854764479}
   m_RootOrder: 2
@@ -211,7 +208,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1795522131}
   m_RootOrder: 0
@@ -330,7 +326,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5103374790148652111}
   m_RootOrder: 0
@@ -446,8 +441,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5103374789854764479}
-  - component: {fileID: 380177230390169740}
-  - component: {fileID: 5685820584995037448}
   m_Layer: 0
   m_Name: ARSystem
   m_TagString: Untagged
@@ -465,7 +458,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5719802188408441926}
   - {fileID: 5103374790261471496}
@@ -475,32 +467,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &380177230390169740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5103374789854764478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 088e5a12e25f0934ebd95b9fc1574d03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Platform: 0
---- !u!114 &5685820584995037448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5103374789854764478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3108837d36c61840b4ba7fe08df411a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ArInputManager: {fileID: 1896447850}
 --- !u!1 &5103374790148652110
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +496,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5103374789684283566}
   m_Father: {fileID: 5103374790567467632}
@@ -665,7 +630,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5103374790567467632}
   m_Father: {fileID: 5103374789854764479}
@@ -764,7 +728,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5103374790148652111}
   - {fileID: 5103374790830324772}
@@ -831,7 +794,6 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5103374790567467632}
   m_RootOrder: 1
@@ -966,7 +928,6 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5103374790567467632}
   m_RootOrder: 2
@@ -1145,8 +1106,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AzureSpatialAnchorManager
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 698627060577493581, guid: cd4730bb55b12ca468467466598e78db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cd4730bb55b12ca468467466598e78db, type: 3}
+--- !u!4 &5719802188408441926 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 698627060577493578, guid: cd4730bb55b12ca468467466598e78db, type: 3}
+  m_PrefabInstance: {fileID: 5103374790000127500}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5719802188408441920 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 698627060577493580, guid: cd4730bb55b12ca468467466598e78db, type: 3}
@@ -1158,8 +1125,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2e3e5389664d84d8fb95018a73d787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &5719802188408441926 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 698627060577493578, guid: cd4730bb55b12ca468467466598e78db, type: 3}
-  m_PrefabInstance: {fileID: 5103374790000127500}
-  m_PrefabAsset: {fileID: 0}
